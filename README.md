@@ -2,10 +2,11 @@
  * @Author: ShenLing
  * @Date: 2021-12-19 14:56:56
  * @LastEditors: ShenLing
- * @LastEditTime: 2021-12-19 16:36:37
+ * @LastEditTime: 2021-12-19 16:48:31
 -->
 # auto_refresh_website_with_notification
 
+  > 掘金文章：[用JavaScript写一个自动刷新网页通知软考成绩是否出来的脚本](https://juejin.cn/post/7043325422796439560/)
 ## 1. 项目说明 description
 > 本javascript脚本，意在提供自动刷新网页，当网页中出现符合匹配目标的元素，则发送chrome通知给用户
 
@@ -47,3 +48,4 @@
 
 **注意要点：**
 如果直接用setTimeout，会导致刷新一次后，控制带的代码就消失了，无法进行下一轮刷新，所以必须将页面document内容放置到`<frame/>`中，刷寻frame中的内容，就可以成功定时刷新内容了
+
